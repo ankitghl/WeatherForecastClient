@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1496B01D2441B300C7308B /* ATClouds.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14969F1D2441B300C7308B /* ATClouds.m */; };
+		BC1496B11D2441B300C7308B /* ATCoord.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496A11D2441B300C7308B /* ATCoord.m */; };
+		BC1496B21D2441B300C7308B /* ATList.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496A31D2441B300C7308B /* ATList.m */; };
+		BC1496B31D2441B300C7308B /* ATMain.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496A51D2441B300C7308B /* ATMain.m */; };
+		BC1496B41D2441B300C7308B /* ATRain.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496A71D2441B300C7308B /* ATRain.m */; };
+		BC1496B51D2441B300C7308B /* ATSys.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496A91D2441B300C7308B /* ATSys.m */; };
+		BC1496B61D2441B300C7308B /* ATWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496AB1D2441B300C7308B /* ATWeather.m */; };
+		BC1496B71D2441B300C7308B /* ATWind.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496AD1D2441B300C7308B /* ATWind.m */; };
+		BC1496BA1D24456E00C7308B /* ATNearByCities.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496B91D24456E00C7308B /* ATNearByCities.m */; };
+		BC1496BE1D2446B000C7308B /* ATLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496BD1D2446B000C7308B /* ATLocationManager.m */; };
+		BC1496C01D244B7100C7308B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1496BF1D244B7100C7308B /* CoreLocation.framework */; };
+		BC1496C51D25AE6300C7308B /* ATForecastTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1496C41D25AE6300C7308B /* ATForecastTableViewCell.m */; };
+		BC6827201D25483300B726A8 /* ATCity.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6827191D25483300B726A8 /* ATCity.m */; };
+		BC6827211D25483300B726A8 /* ATForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68271B1D25483300B726A8 /* ATForecast.m */; };
+		BC6827221D25483300B726A8 /* ATListForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68271D1D25483300B726A8 /* ATListForecast.m */; };
+		BC6827231D25483300B726A8 /* ATTemp.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68271F1D25483300B726A8 /* ATTemp.m */; };
+		BC6827271D254DDD00B726A8 /* ATForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6827261D254DDD00B726A8 /* ATForecastViewController.m */; };
+		BC7CC2BC1D2679F700D00B7A /* ATUtilityClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC2BB1D2679F600D00B7A /* ATUtilityClass.m */; };
+		BC869B981D21739D00A687E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC869B971D21739D00A687E1 /* main.m */; };
+		BC869B9B1D21739D00A687E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC869B9A1D21739D00A687E1 /* AppDelegate.m */; };
+		BC869BA11D21739D00A687E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC869B9F1D21739D00A687E1 /* Main.storyboard */; };
+		BC869BA31D21739D00A687E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC869BA21D21739D00A687E1 /* Assets.xcassets */; };
+		BC869BA61D21739D00A687E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC869BA41D21739D00A687E1 /* LaunchScreen.storyboard */; };
+		BC869BB71D219ABE00A687E1 /* ATDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC869BB61D219ABE00A687E1 /* ATDashboardViewController.m */; };
+		BC869BBC1D22DBA700A687E1 /* ATWeatherClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BC869BBB1D22DBA700A687E1 /* ATWeatherClient.m */; };
+		BCDBA2A71D2AEEA8001C6C38 /* ATProgressLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDBA2A51D2AEEA8001C6C38 /* ATProgressLoaderViewController.m */; };
+		BCDBA2A81D2AEEA8001C6C38 /* ATProgressLoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDBA2A61D2AEEA8001C6C38 /* ATProgressLoaderViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC14969E1D2441B300C7308B /* ATClouds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATClouds.h; sourceTree = "<group>"; };
+		BC14969F1D2441B300C7308B /* ATClouds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATClouds.m; sourceTree = "<group>"; };
+		BC1496A01D2441B300C7308B /* ATCoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCoord.h; sourceTree = "<group>"; };
+		BC1496A11D2441B300C7308B /* ATCoord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCoord.m; sourceTree = "<group>"; };
+		BC1496A21D2441B300C7308B /* ATList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATList.h; sourceTree = "<group>"; };
+		BC1496A31D2441B300C7308B /* ATList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATList.m; sourceTree = "<group>"; };
+		BC1496A41D2441B300C7308B /* ATMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMain.h; sourceTree = "<group>"; };
+		BC1496A51D2441B300C7308B /* ATMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMain.m; sourceTree = "<group>"; };
+		BC1496A61D2441B300C7308B /* ATRain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRain.h; sourceTree = "<group>"; };
+		BC1496A71D2441B300C7308B /* ATRain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRain.m; sourceTree = "<group>"; };
+		BC1496A81D2441B300C7308B /* ATSys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSys.h; sourceTree = "<group>"; };
+		BC1496A91D2441B300C7308B /* ATSys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSys.m; sourceTree = "<group>"; };
+		BC1496AA1D2441B300C7308B /* ATWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATWeather.h; sourceTree = "<group>"; };
+		BC1496AB1D2441B300C7308B /* ATWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATWeather.m; sourceTree = "<group>"; };
+		BC1496AC1D2441B300C7308B /* ATWind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATWind.h; sourceTree = "<group>"; };
+		BC1496AD1D2441B300C7308B /* ATWind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATWind.m; sourceTree = "<group>"; };
+		BC1496AE1D2441B300C7308B /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		BC1496B81D24456E00C7308B /* ATNearByCities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNearByCities.h; sourceTree = "<group>"; };
+		BC1496B91D24456E00C7308B /* ATNearByCities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNearByCities.m; sourceTree = "<group>"; };
+		BC1496BC1D2446B000C7308B /* ATLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLocationManager.h; sourceTree = "<group>"; };
+		BC1496BD1D2446B000C7308B /* ATLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLocationManager.m; sourceTree = "<group>"; };
+		BC1496BF1D244B7100C7308B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BC1496C31D25AE6300C7308B /* ATForecastTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATForecastTableViewCell.h; sourceTree = "<group>"; };
+		BC1496C41D25AE6300C7308B /* ATForecastTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATForecastTableViewCell.m; sourceTree = "<group>"; };
+		BC6827181D25483300B726A8 /* ATCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCity.h; sourceTree = "<group>"; };
+		BC6827191D25483300B726A8 /* ATCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCity.m; sourceTree = "<group>"; };
+		BC68271A1D25483300B726A8 /* ATForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATForecast.h; sourceTree = "<group>"; };
+		BC68271B1D25483300B726A8 /* ATForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATForecast.m; sourceTree = "<group>"; };
+		BC68271C1D25483300B726A8 /* ATListForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATListForecast.h; sourceTree = "<group>"; };
+		BC68271D1D25483300B726A8 /* ATListForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATListForecast.m; sourceTree = "<group>"; };
+		BC68271E1D25483300B726A8 /* ATTemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTemp.h; sourceTree = "<group>"; };
+		BC68271F1D25483300B726A8 /* ATTemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTemp.m; sourceTree = "<group>"; };
+		BC6827251D254DDD00B726A8 /* ATForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATForecastViewController.h; sourceTree = "<group>"; };
+		BC6827261D254DDD00B726A8 /* ATForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATForecastViewController.m; sourceTree = "<group>"; };
+		BC7CC2BA1D2679F600D00B7A /* ATUtilityClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATUtilityClass.h; sourceTree = "<group>"; };
+		BC7CC2BB1D2679F600D00B7A /* ATUtilityClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATUtilityClass.m; sourceTree = "<group>"; };
+		BC869B931D21739C00A687E1 /* AnkitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC869B971D21739D00A687E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC869B991D21739D00A687E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC869B9A1D21739D00A687E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC869BA01D21739D00A687E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC869BA21D21739D00A687E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC869BA51D21739D00A687E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC869BA71D21739D00A687E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC869BB51D219ABE00A687E1 /* ATDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDashboardViewController.h; sourceTree = "<group>"; };
+		BC869BB61D219ABE00A687E1 /* ATDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDashboardViewController.m; sourceTree = "<group>"; };
+		BC869BBA1D22DBA700A687E1 /* ATWeatherClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATWeatherClient.h; sourceTree = "<group>"; };
+		BC869BBB1D22DBA700A687E1 /* ATWeatherClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATWeatherClient.m; sourceTree = "<group>"; };
+		BCDBA2A41D2AEEA8001C6C38 /* ATProgressLoaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATProgressLoaderViewController.h; sourceTree = "<group>"; };
+		BCDBA2A51D2AEEA8001C6C38 /* ATProgressLoaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATProgressLoaderViewController.m; sourceTree = "<group>"; };
+		BCDBA2A61D2AEEA8001C6C38 /* ATProgressLoaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATProgressLoaderViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC869B901D21739C00A687E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1496C01D244B7100C7308B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC14969B1D2441B300C7308B /* FindCities */ = {
+			isa = PBXGroup;
+			children = (
+				BC1496B81D24456E00C7308B /* ATNearByCities.h */,
+				BC1496B91D24456E00C7308B /* ATNearByCities.m */,
+				BC14969E1D2441B300C7308B /* ATClouds.h */,
+				BC14969F1D2441B300C7308B /* ATClouds.m */,
+				BC1496A01D2441B300C7308B /* ATCoord.h */,
+				BC1496A11D2441B300C7308B /* ATCoord.m */,
+				BC1496A21D2441B300C7308B /* ATList.h */,
+				BC1496A31D2441B300C7308B /* ATList.m */,
+				BC1496A41D2441B300C7308B /* ATMain.h */,
+				BC1496A51D2441B300C7308B /* ATMain.m */,
+				BC1496A61D2441B300C7308B /* ATRain.h */,
+				BC1496A71D2441B300C7308B /* ATRain.m */,
+				BC1496A81D2441B300C7308B /* ATSys.h */,
+				BC1496A91D2441B300C7308B /* ATSys.m */,
+				BC1496AA1D2441B300C7308B /* ATWeather.h */,
+				BC1496AB1D2441B300C7308B /* ATWeather.m */,
+				BC1496AC1D2441B300C7308B /* ATWind.h */,
+				BC1496AD1D2441B300C7308B /* ATWind.m */,
+				BC1496AE1D2441B300C7308B /* DataModels.h */,
+			);
+			path = FindCities;
+			sourceTree = "<group>";
+		};
+		BC1496BB1D24469B00C7308B /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				BC1496BC1D2446B000C7308B /* ATLocationManager.h */,
+				BC1496BD1D2446B000C7308B /* ATLocationManager.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		BC1496C11D25AE4100C7308B /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC1496C21D25AE4100C7308B /* Forecast Cell */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		BC1496C21D25AE4100C7308B /* Forecast Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC1496C31D25AE6300C7308B /* ATForecastTableViewCell.h */,
+				BC1496C41D25AE6300C7308B /* ATForecastTableViewCell.m */,
+			);
+			path = "Forecast Cell";
+			sourceTree = "<group>";
+		};
+		BC6827171D25483300B726A8 /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				BC6827181D25483300B726A8 /* ATCity.h */,
+				BC6827191D25483300B726A8 /* ATCity.m */,
+				BC68271A1D25483300B726A8 /* ATForecast.h */,
+				BC68271B1D25483300B726A8 /* ATForecast.m */,
+				BC68271C1D25483300B726A8 /* ATListForecast.h */,
+				BC68271D1D25483300B726A8 /* ATListForecast.m */,
+				BC68271E1D25483300B726A8 /* ATTemp.h */,
+				BC68271F1D25483300B726A8 /* ATTemp.m */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+		BC6827241D254DD000B726A8 /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				BC6827251D254DDD00B726A8 /* ATForecastViewController.h */,
+				BC6827261D254DDD00B726A8 /* ATForecastViewController.m */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+		BC6A91DB1D22F9CA00FAD03E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC14969B1D2441B300C7308B /* FindCities */,
+				BC6827171D25483300B726A8 /* Forecast */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC7CC2B91D26799900D00B7A /* UtilityClass */ = {
+			isa = PBXGroup;
+			children = (
+				BC7CC2BA1D2679F600D00B7A /* ATUtilityClass.h */,
+				BC7CC2BB1D2679F600D00B7A /* ATUtilityClass.m */,
+			);
+			path = UtilityClass;
+			sourceTree = "<group>";
+		};
+		BC869B8A1D21739C00A687E1 = {
+			isa = PBXGroup;
+			children = (
+				BC869B951D21739D00A687E1 /* AnkitTest */,
+				BC869B941D21739C00A687E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC869B941D21739C00A687E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC869B931D21739C00A687E1 /* AnkitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC869B951D21739D00A687E1 /* AnkitTest */ = {
+			isa = PBXGroup;
+			children = (
+				BC869B991D21739D00A687E1 /* AppDelegate.h */,
+				BC869B9A1D21739D00A687E1 /* AppDelegate.m */,
+				BC6A91DB1D22F9CA00FAD03E /* Models */,
+				BC869BB81D22DB6600A687E1 /* Reusables */,
+				BC1496C11D25AE4100C7308B /* Custom Cell */,
+				BC869BAD1D219A6300A687E1 /* Controllers */,
+				BC869B9F1D21739D00A687E1 /* Main.storyboard */,
+				BC869BA21D21739D00A687E1 /* Assets.xcassets */,
+				BC869BA41D21739D00A687E1 /* LaunchScreen.storyboard */,
+				BC869BA71D21739D00A687E1 /* Info.plist */,
+				BC869B961D21739D00A687E1 /* Supporting Files */,
+			);
+			path = AnkitTest;
+			sourceTree = "<group>";
+		};
+		BC869B961D21739D00A687E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCDE7F431D2EAC81005E7242 /* Frameworks */,
+				BC869B971D21739D00A687E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC869BAD1D219A6300A687E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC869BAE1D219A6300A687E1 /* Dashboard */,
+				BC6827241D254DD000B726A8 /* Forecast */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC869BAE1D219A6300A687E1 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				BC869BB51D219ABE00A687E1 /* ATDashboardViewController.h */,
+				BC869BB61D219ABE00A687E1 /* ATDashboardViewController.m */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		BC869BB81D22DB6600A687E1 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				BC1496BB1D24469B00C7308B /* LocationManager */,
+				BCDBA2A31D2AEE7F001C6C38 /* ProgressLoader */,
+				BC7CC2B91D26799900D00B7A /* UtilityClass */,
+				BC869BB91D22DB6600A687E1 /* Webservice */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		BC869BB91D22DB6600A687E1 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				BC869BBA1D22DBA700A687E1 /* ATWeatherClient.h */,
+				BC869BBB1D22DBA700A687E1 /* ATWeatherClient.m */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		BCDBA2A31D2AEE7F001C6C38 /* ProgressLoader */ = {
+			isa = PBXGroup;
+			children = (
+				BCDBA2A41D2AEEA8001C6C38 /* ATProgressLoaderViewController.h */,
+				BCDBA2A51D2AEEA8001C6C38 /* ATProgressLoaderViewController.m */,
+				BCDBA2A61D2AEEA8001C6C38 /* ATProgressLoaderViewController.xib */,
+			);
+			path = ProgressLoader;
+			sourceTree = "<group>";
+		};
+		BCDE7F431D2EAC81005E7242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC1496BF1D244B7100C7308B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC869B921D21739C00A687E1 /* AnkitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC869BAA1D21739D00A687E1 /* Build configuration list for PBXNativeTarget "AnkitTest" */;
+			buildPhases = (
+				BC869B8F1D21739C00A687E1 /* Sources */,
+				BC869B901D21739C00A687E1 /* Frameworks */,
+				BC869B911D21739C00A687E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnkitTest;
+			productName = AnkitTest;
+			productReference = BC869B931D21739C00A687E1 /* AnkitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC869B8B1D21739C00A687E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AT;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ankit Gohel";
+				TargetAttributes = {
+					BC869B921D21739C00A687E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BC869B8E1D21739C00A687E1 /* Build configuration list for PBXProject "AnkitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC869B8A1D21739C00A687E1;
+			productRefGroup = BC869B941D21739C00A687E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC869B921D21739C00A687E1 /* AnkitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC869B911D21739C00A687E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC869BA61D21739D00A687E1 /* LaunchScreen.storyboard in Resources */,
+				BC869BA31D21739D00A687E1 /* Assets.xcassets in Resources */,
+				BC869BA11D21739D00A687E1 /* Main.storyboard in Resources */,
+				BCDBA2A81D2AEEA8001C6C38 /* ATProgressLoaderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC869B8F1D21739C00A687E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6827201D25483300B726A8 /* ATCity.m in Sources */,
+				BC1496B31D2441B300C7308B /* ATMain.m in Sources */,
+				BC869BBC1D22DBA700A687E1 /* ATWeatherClient.m in Sources */,
+				BC6827211D25483300B726A8 /* ATForecast.m in Sources */,
+				BC869BB71D219ABE00A687E1 /* ATDashboardViewController.m in Sources */,
+				BC6827221D25483300B726A8 /* ATListForecast.m in Sources */,
+				BC7CC2BC1D2679F700D00B7A /* ATUtilityClass.m in Sources */,
+				BC1496B61D2441B300C7308B /* ATWeather.m in Sources */,
+				BC6827271D254DDD00B726A8 /* ATForecastViewController.m in Sources */,
+				BC1496BA1D24456E00C7308B /* ATNearByCities.m in Sources */,
+				BC1496BE1D2446B000C7308B /* ATLocationManager.m in Sources */,
+				BC1496B11D2441B300C7308B /* ATCoord.m in Sources */,
+				BC1496B01D2441B300C7308B /* ATClouds.m in Sources */,
+				BC1496B71D2441B300C7308B /* ATWind.m in Sources */,
+				BC1496B21D2441B300C7308B /* ATList.m in Sources */,
+				BC1496B41D2441B300C7308B /* ATRain.m in Sources */,
+				BC1496C51D25AE6300C7308B /* ATForecastTableViewCell.m in Sources */,
+				BC6827231D25483300B726A8 /* ATTemp.m in Sources */,
+				BCDBA2A71D2AEEA8001C6C38 /* ATProgressLoaderViewController.m in Sources */,
+				BC869B9B1D21739D00A687E1 /* AppDelegate.m in Sources */,
+				BC1496B51D2441B300C7308B /* ATSys.m in Sources */,
+				BC869B981D21739D00A687E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC869B9F1D21739D00A687E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC869BA01D21739D00A687E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC869BA41D21739D00A687E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC869BA51D21739D00A687E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC869BA81D21739D00A687E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chandrakant Sohandani (JDCDN3ULW5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chandrakant Sohandani (JDCDN3ULW5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "92a75bcb-ce6e-4a6a-bccd-a7403d8d4e8b";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC869BA91D21739D00A687E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chandrakant Sohandani (JDCDN3ULW5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chandrakant Sohandani (JDCDN3ULW5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "92a75bcb-ce6e-4a6a-bccd-a7403d8d4e8b";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC869BAB1D21739D00A687E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chandrakant Sohandani (JDCDN3ULW5)";
+				INFOPLIST_FILE = AnkitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "92a75bcb-ce6e-4a6a-bccd-a7403d8d4e8b";
+			};
+			name = Debug;
+		};
+		BC869BAC1D21739D00A687E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chandrakant Sohandani (JDCDN3ULW5)";
+				INFOPLIST_FILE = AnkitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "92a75bcb-ce6e-4a6a-bccd-a7403d8d4e8b";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC869B8E1D21739C00A687E1 /* Build configuration list for PBXProject "AnkitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC869BA81D21739D00A687E1 /* Debug */,
+				BC869BA91D21739D00A687E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC869BAA1D21739D00A687E1 /* Build configuration list for PBXNativeTarget "AnkitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC869BAB1D21739D00A687E1 /* Debug */,
+				BC869BAC1D21739D00A687E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC869B8B1D21739C00A687E1 /* Project object */;
+}
